@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def normalize_array(input_array):
     arr = np.asarray(input_array)  # Ensure it's a NumPy array
 
