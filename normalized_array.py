@@ -2,7 +2,6 @@ import numpy as np
 
 def normalize_array(input_array):
     arr = np.asarray(input_array)  # Ensure it's a NumPy array
-
     min_val = np.min(arr)
     max_val = np.max(arr)
 
