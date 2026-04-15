@@ -14,7 +14,6 @@ def normalize_array(input_array):
     normalized = (arr - min_val) / (max_val - min_val)
 
     return normalized
-    # חשוב לזכור להחליף את pass ב- return
 
 if __name__ == "__main__":
     # כאן הסטודנטים יכולים להריץ בדיקה עצמית מהירה
